@@ -33,9 +33,44 @@
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <title>Alquimia</title>
     </head>
-    <body>
-        <div class="main_menu">
-            <img src="img/Vitriol.png" longdesc="https://commons.wikimedia.org/wiki/File:Vitriol.png" />
+    <body style="background: black; display: flex; justify-content: center; align-items: center;">
+        <div class="main_menu" style="background: grey; width: 90%; height: 90%; display: flex; flex-direction: column;">
+            <!-- https://commons.wikimedia.org/wiki/File:Vitriol.png -->
+            <div class="logo" style="background: red; flex-grow: 2;
+
+background-image: url('img/Vitriol.png');
+
+background-repeat: no-repeat;
+
+background-size: contain;
+
+background-position-x: center;
+
+background-position-y: top;"></div>
+            <div class="buttons" style="flex-grow: 1; display: flex; flex-direction: column;">
+                <div style="background: yellow; flex-grow: 1; display: flex; flex-direction: row;">
+                    <div style="background: blue; flex-grow: 1; display: flex;
+
+justify-content: center;
+
+align-items: center;">New Game</div>
+                    <div style="background: red; flex-grow: 1; display: flex;
+
+justify-content: center;
+
+align-items: center;">Load Game</div>
+                </div>
+                <div style="background: pink; flex-grow: 1; display: flex;
+
+justify-content: center;
+
+align-items: center;">Options</div>
+                <div style="background: green; flex-grow: 1; display: flex;
+
+justify-content: center;
+
+align-items: center;">Exit</div>
+            </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
