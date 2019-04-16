@@ -32,6 +32,9 @@ var app = {
     receivedEvent: function(event) {
         switch(event) {
             case 'deviceready':
+                //- INIT - Main menu ------------------------------------
+                $("#main_menu .btn_exit").on('click', function() {navigator.app.exitApp();});
+                //- END -- Main menu ------------------------------------
                 break;
         }
     }
