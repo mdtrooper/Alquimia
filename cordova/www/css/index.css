@@ -31,3 +31,15 @@ html, body {
     padding:0px;
     width:100%;
 }
+
+.screen {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 500ms, visibility 500ms;
+}
+
+.screen.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 500ms, visibility 500ms;
+}
